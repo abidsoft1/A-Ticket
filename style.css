@@ -1,0 +1,529 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* Button css  */
+
+.btn-primary {
+  display: inline-flex;
+  padding: 0px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 12px;
+  border: 1px solid rgba(29, 209, 0, 0.4);
+  background: rgba(29, 209, 0, 0.1);
+  color: #1dd100;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.logo {
+  color: #030712;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+header li a {
+  color: rgba(3, 7, 18, 0.7);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-left: 56px;
+}
+
+/* banner section css  */
+
+.banner {
+  border-radius: 16px;
+  background: url(images/banner.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-content {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.banner-content h2 {
+  color: var(--base-white, #fff);
+  text-align: center;
+  font-family: Raleway;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 86px; /* 134.375% */
+}
+
+.banner-content h2 span {
+  color: var(--base-white, #1dd100);
+  font-family: Raleway;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 86px;
+}
+
+.banner-content p {
+  color: var(--base-white, #fff);
+  text-align: center;
+  font-size: 18px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.banner-btn {
+  display: inline-flex;
+  padding: 15px 30px;
+  gap: 10px;
+  border-radius: 12px;
+  background: #1dd100;
+  color: var(--base-black, #030712);
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+
+/* coupon section css  */
+.c-up {
+  height: 220px;
+  width: 500px;
+  border-radius: 16px;
+  background: url(images/Rectangle\ 8.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.c-up .c-left h1{
+  color: rgba(3, 7, 18, 0.80);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: 36px; /* 90% */
+}
+
+.c-up .c-left p{
+  color: rgba(3, 7, 18, 0.80);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px;
+}
+
+.c-up .c-left span{
+  color: rgba(3, 7, 18, 0.50);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px;
+}
+
+.c-up .c-right h1{
+  color:  #030712;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 180%; /* 57.6px */
+}
+
+.c-up .c-right span{
+  color:  rgba(3, 7, 18, 0.40);
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 180%;
+}
+
+
+.c-down {
+  height: 220px;
+  width: 500px;
+  border-radius: 16px;
+  background: url(images/Rectangle\ 8\ \(1\).png);
+  background-size: cover;
+  background-position: center;
+}
+
+.c-down .c-down-left h1{
+  color: rgba(3, 7, 18, 0.80);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: 36px; /* 90% */
+}
+
+.c-down .c-down-left p{
+  color: rgba(3, 7, 18, 0.80);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px;
+}
+
+.c-down .c-down-left span{
+  color: rgba(3, 7, 18, 0.50);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px;
+}
+
+.c-down .c-down-right h1{
+  color:  #030712;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 180%; /* 57.6px */
+}
+
+.c-down .c-down-right span{
+  color:  rgba(3, 7, 18, 0.40);
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 180%;
+}
+/* offer section css */
+
+.offer-section h1 {
+  color: #030712;
+  font-family: Raleway;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 30px;
+}
+
+.offer-btn {
+  display: inline-flex;
+  padding: 21px 30px;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid #1dd100;
+  color: var(--primary-700, #1dd100);
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+
+/* overall section css  */
+
+.overall .right .name img {
+  width: 68.571px;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+.overall .right .name-2 h1 {
+  color: var(--base-black, #030712);
+  text-align: center;
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.overall .right .name-2 p {
+  color: rgba(3, 7, 18, 0.6);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.overall .right .name-3 button {
+  width: 180px;
+  height: 56px;
+  border-radius: 12px;
+  background: rgba(29, 209, 0, 0.15);
+  color: #1dd100;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.overall .left h1 {
+  color: var(--base-black, #030712);
+  text-align: center;
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+}
+
+.overall .left h1 span {
+  color: var(--base-black, rgba(3, 7, 18, 0.6));
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.overall .info {
+  width: 750px;
+  height: 258px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #f7f8f8;
+}
+
+.overall .info .drop-btn {
+  width: 232px;
+  height: 56px;
+  border-radius: 12px;
+  background: rgba(3, 7, 18, 0.05);
+}
+
+.overall .info span {
+  color: rgba(3, 7, 18, 0.6);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.overall .info h1 {
+  color: var(--base-black, #030712);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.overall .info .one,
+.two {
+  border-bottom: 1px dashed rgba(3, 7, 18, 0.2);
+  padding-bottom: 30px;
+  margin-top: 20px;
+}
+.seat {
+  width: 110px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #f7f8f8;
+  color: rgba(3, 7, 18, 0.5);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: inline-block;
+}
+
+.selected {
+  background-color: #1dd100 !important;
+}
+
+
+/* Ticket section booking css  */
+
+.down h1 {
+  color: var(--base-black, #030712);
+  padding: 20px;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.down .down-left img {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+}
+
+.don .down-left span {
+  color: rgba(3, 7, 18, 0.5);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.down .down-left .abc {
+  border-top: 1px dashed rgba(3, 7, 18, 0.2);
+  border-bottom: 1px dashed rgba(3, 7, 18, 0.2);
+  padding: 20px;
+}
+
+.down .down-left .icon-btn {
+  width: 110px;
+  height: 56px;
+  border-radius: 12px;
+  background: rgba(3, 7, 18, 0.1);
+}
+
+.down .down-left button {
+  width: 110px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #f7f8f8;
+  margin: 20px;
+}
+
+.down .down-right h1 {
+  color: var(--base-black, #030712);
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-bottom: 1px dashed rgba(3, 7, 18, 0.2);
+}
+
+.down .down-right .c-btn {
+  width: 80px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #1dd100;
+  color: var(--base-white, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.down .down-right .fare-text {
+  color: var(--base-black, #030712);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-bottom: 1px dashed rgba(3, 7, 18, 0.2);
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.down .down-right .fare-text span {
+  background: #1dd100;
+  border-radius: 100%;
+  padding: 2px;
+}
+
+.down .down-right .next-btn {
+  display: flex;
+  width: 433px;
+  padding: 21px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 16px;
+  background: var(--primary-700, #1dd100);
+  color: var(--base-white, #fff);
+  text-align: center;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 20px;
+}
+
+.down .down-right .texts {
+  color: var(--base-black, #030712);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* modal section css  */
+
+.modal h3 {
+  color: #4A4A4A;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.modal p{
+  color: #4A4A4A;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 167.188%;
+}
+
+.modal h5{
+  color: #27AE60;
+text-align: center;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 20px 0;
+}
+
+
+.total{
+  border-bottom: 1px dashed rgba(3, 7, 18, 0.2);
+  padding-bottom: 10px;
+}
